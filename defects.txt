@@ -1,0 +1,53 @@
+1.Функция `capitilize`:
+
+    **Описание:** при передаче в функцию `capitilize` аргумента, отличного от строки, возникает исключение `AttributeError: 'int' object has no attribute 'capitalize'`.
+    
+    **Шаги:**
+    
+    1. Создайть экземпляр класса `StringUtils`.
+    2. Вызовать метод `capitilize` с аргументом, отличным от строки.
+    3. Убедится, что возникает исключение `AttributeError: 'int' object has no attribute 'capitalize'`.
+    
+    **Ожидаемый результат:** метод `capitilize` должен вызывать исключение `TypeError` при передаче аргумента, отличного от строки.
+    
+    **Фактический результат:** метод `capitilize` вызывает исключение `AttributeError: 'int' object has no attribute 'capitalize'` при передаче аргумента, отличного от строки.
+    
+2. Функция `trim`:
+
+    **Описание:** при передаче в функцию `trim` аргумента, отличного от строки, возникает исключение `AttributeError: 'int' object has no attribute 'startswith'`.
+    
+    **Шаги:**
+    
+    1. Создать экземпляр класса `StringUtils`.
+    2. Вызовать метод `trim` с аргументом, отличным от строки.
+    3. Убедится, что возникает исключение `AttributeError: 'int' object has no attribute 'startswith'`.
+    
+    **Ожидаемый результат:** метод `trim` должен вызывать исключение `TypeError` при передаче аргумента, отличного от строки.
+    
+    **Фактический результат:** метод `trim` вызывает исключение `AttributeError: 'int' object has no attribute 'startswith'` при передаче аргумента, отличного от строки.
+    
+3. Функция `to_list`:
+
+    **Описание проблемы:** при передаче в функцию `to_list` аргумента, отличного от строки, возникает исключение `AttributeError: 'int' object has no attribute 'startswith'`.
+    
+    **Шаги:**
+    
+    1. Создать экземпляр класса `StringUtils`.
+    2. Вызовать метод `to_list` с аргументом, отличным от строки 
+    3. Убедитесь, что возникает исключение `AttributeError: 'int' object has no attribute 'startswith'`.
+    
+    **Ожидаемый результат:** метод `to_list` должен вызывать исключение `TypeError` при передаче аргумента, отличного от строки.
+    
+    **Фактический результат:** метод `to_list` вызывает исключение `AttributeError: 'int' object has no attribute 'startswith'` при передаче аргумента, отличного от строки.
+    
+4. Функция `to_list`:
+
+    **Описание:** при передаче в функцию `to_list` пустой строки в качестве аргумента `delimiter`, возникает исключение `ValueError: empty separator`.
+    
+    **Шаги:**
+    
+    1. Создать экземпляр класса `StringUtils`.
+    2. Вызовать метод `to_list` с пустой строкой в качестве аргумента `delimiter`.
+    3. Убедится, что возникает исключение `ValueError: empty separator`.
+    
+    **Ожидаемый результат:** метод `to_list`

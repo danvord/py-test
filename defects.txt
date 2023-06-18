@@ -1,4 +1,4 @@
-1.Функция `capitilize`:
+1. Функция `capitilize`:
 
     **Описание:** при передаче в функцию `capitilize` аргумента, отличного от строки, возникает исключение `AttributeError: 'int' object has no attribute 'capitalize'`.
     

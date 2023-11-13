@@ -12,7 +12,7 @@ driver.get("http://the-internet.herokuapp.com/entry_ad")
 
 mfooter=("div.modal-footer > p")
 
-close_button=driver.find_element(By.CSS_SELECTOR, mfooter)
+close_button = WebdriverWait(driver, timeout:10).until(EC.element_to_be_clickable)((By.CSS_SELECTOR, mfooter)))
 close_button.click()
 
 #Close browser 
